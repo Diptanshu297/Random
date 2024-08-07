@@ -1,0 +1,5 @@
+import qrcode
+
+image = qrcode.make("") # use anything between ""
+
+image.save('qr.png')
